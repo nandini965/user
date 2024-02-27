@@ -1,3 +1,6 @@
 appName: user
 params: "prod.user.documentdb prod.user.redis_host prod.user.mongo_url"
 appPort: 8080
+schema:
+  enabled: true
+  type: mongo
